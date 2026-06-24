@@ -146,26 +146,26 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:info@nafisolutions.com"
+                  href="mailto:nafisolutions1@gmail.com"
                   className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)] font-body hover:text-[var(--color-brand)] transition-colors duration-200 group"
                 >
                   <Mail className="w-4 h-4 mt-0.5 text-[var(--color-brand)] shrink-0" />
-                  info@nafisolutions.com
+                  nafisolutions1@gmail.com
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+251000000000"
+                  href="tel:+251968876088"
                   className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)] font-body hover:text-[var(--color-brand)] transition-colors duration-200"
                 >
                   <Phone className="w-4 h-4 mt-0.5 text-[var(--color-brand)] shrink-0" />
-                  +251 XXX XXX XXX
+                  +251 968 876 088
                 </a>
               </li>
               <li>
                 <span className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)] font-body">
                   <MapPin className="w-4 h-4 mt-0.5 text-[var(--color-brand)] shrink-0" />
-                  Addis Ababa, Ethiopia
+                  Adama, Ethiopia
                 </span>
               </li>
             </ul>

@@ -21,19 +21,19 @@ const contactInfo = [
   {
     Icon: Mail,
     label: "Email",
-    value: "info@nafisolutions.com",
-    href: "mailto:info@nafisolutions.com",
+    value: "nafisolutions1@gmail.com",
+    href: "mailto:nafisolutions1@gmail.com",
   },
   {
     Icon: Phone,
     label: "Phone",
-    value: "+251 XXX XXX XXX",
-    href: "tel:+251000000000",
+    value: "+251 968 876 088",
+    href: "tel:+251968876088",
   },
   {
     Icon: MapPin,
     label: "Location",
-    value: "Addis Ababa, Ethiopia",
+    value: "Adama, Ethiopia",
     href: undefined,
   },
   {

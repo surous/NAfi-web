@@ -11,8 +11,35 @@ const schema = z.object({
   message: z.string().min(20),
 });
 
+// Simple in-memory rate limiter
+const rateLimit = new Map<string, { count: number; timestamp: number }>();
+
 export async function POST(req: NextRequest) {
   try {
+    // Rate Limiting Logic
+    const ip = req.headers.get("x-forwarded-for") || req.headers.get("remote-addr") || "unknown";
+    const now = Date.now();
+    const windowMs = 60 * 1000; // 1 minute
+    const maxRequests = 3;
+
+    const record = rateLimit.get(ip) || { count: 0, timestamp: now };
+    
+    // Reset if window has passed
+    if (now - record.timestamp > windowMs) {
+      record.count = 0;
+      record.timestamp = now;
+    }
+    
+    if (record.count >= maxRequests) {
+      return NextResponse.json(
+        { error: "Too many requests. Please try again later." },
+        { status: 429 }
+      );
+    }
+    
+    record.count += 1;
+    rateLimit.set(ip, record);
+
     const body = await req.json();
     const parsed = schema.safeParse(body);
 
@@ -33,7 +60,7 @@ export async function POST(req: NextRequest) {
 
     await resend.emails.send({
       from: "NAFI Solutions <onboarding@resend.dev>",
-      to: "info@nafisolutions.com",
+      to: "nafisolutions1@gmail.com",
       subject: `New Project Inquiry from ${name}`,
       html: `
         <div style="font-family: Inter, sans-serif; max-width: 600px; margin: 0 auto; background: #0D0F14; color: #F0F2F8; padding: 32px; border-radius: 12px;">

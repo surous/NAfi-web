@@ -8,7 +8,7 @@ import SectionHeader from "@/components/ui/SectionHeader";
 
 const stats = [
   { numberValue: 10, suffix: "+", label: "Projects Delivered" },
-  { numberValue: 7, suffix: "+", label: "Happy Clients" },
+  { numberValue: 9, suffix: "+", label: "Happy Clients" },
   { numberValue: 2, suffix: "+", label: "Years of Experience" },
   { numberValue: 99, suffix: "%", label: "Client Satisfaction" },
 ];

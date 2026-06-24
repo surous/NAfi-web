@@ -134,25 +134,26 @@ export const fallbackServices: Service[] = [
 export const fallbackTeam: TeamMember[] = [
   {
     _id: "team-1",
-    name: "Abebe Kebede",
-    role: "Founder & CEO",
+    name: "Abdi Getaneh",
+    role: "CEO & UIX Designer",
     bio: "Visionary leader focused on business innovation and digital transformation across Ethiopia.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
+    linkedinUrl: "https://www.linkedin.com/in/abdi-getaneh-843085356",
   },
   {
     _id: "team-2",
-    name: "Dawit Yohannes",
-    role: "Lead Software Engineer",
+    name: "Folikiya Nigussei",
+    role: "Lead Software Engineer & Security Analyst",
     bio: "Responsible for architecture, development, and technology strategy across all projects.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
+    linkedinUrl: "https://www.linkedin.com/in/folikia-nigussie",
   },
   {
     _id: "team-3",
-    name: "Tigist Amare",
-    role: "Product & Client Success Manager",
-    bio: "Ensures successful project delivery and lasting client satisfaction.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
+    name: "Israel Dinka",
+    role: "Cloud Practitioner & AI Developer",
+    bio: "Specializes in cloud infrastructure and AI-powered solutions that drive operational efficiency.",
+    linkedinUrl: "https://www.linkedin.com/in/israel-erena",
   },
+
 ];
 
 // Helper functions that safely fallback if Sanity is not connected or fails

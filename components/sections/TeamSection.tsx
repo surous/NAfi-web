@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Image from "next/image";
 import { Link2 } from "lucide-react";
 import SectionHeader from "@/components/ui/SectionHeader";
 import StaggerContainer, { staggerItemVariants } from "@/components/motion/StaggerContainer";
@@ -51,10 +52,11 @@ export default function TeamSection({ members = fallbackTeam }: TeamSectionProps
                 {/* Avatar */}
                 <div className="w-20 h-20 rounded-full bg-[var(--color-bg-elevated)] border-2 border-[var(--color-border-brand)] flex items-center justify-center mb-5 overflow-hidden">
                   {typeof member.photo === "string" && member.photo ? (
-                    // eslint-disable-next-line @next/next/no-img-element
-                    <img
+                    <Image
                       src={member.photo}
                       alt={member.name}
+                      width={80}
+                      height={80}
                       className="object-cover w-full h-full"
                     />
                   ) : (

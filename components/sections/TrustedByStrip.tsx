@@ -5,7 +5,22 @@ import { motion } from "framer-motion";
 import FadeInView from "@/components/motion/FadeInView";
 
 export default function TrustedByStrip() {
-  const partners = Array.from({ length: 14 }, (_, i) => `Partner ${(i % 7) + 1}`);
+  const partners = [
+    "Adama Hospital",
+    "EthioTel",
+    "Oromia Schools",
+    "Hawassa Uni.",
+    "Blue Nile Bank",
+    "ZemenBank",
+    "EthioBIM",
+    "Adama Hospital",
+    "EthioTel",
+    "Oromia Schools",
+    "Hawassa Uni.",
+    "Blue Nile Bank",
+    "ZemenBank",
+    "EthioBIM",
+  ];
 
   return (
     <section className="py-12 border-y border-[var(--color-border)] bg-[var(--color-bg-surface)] overflow-hidden relative">

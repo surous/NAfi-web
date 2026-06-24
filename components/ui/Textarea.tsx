@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState, forwardRef, FocusEvent, ChangeEvent } from "react";
+import React, { useState, forwardRef, FocusEvent, ChangeEvent, useId } from "react";
 import { motion, useReducedMotion } from "framer-motion";
 import { cn } from "@/lib/utils";
 
@@ -14,6 +14,8 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
     const [isFocused, setIsFocused] = useState(false);
     const [hasValue, setHasValue] = useState(!!props.value || !!props.defaultValue);
     const shouldReduceMotion = useReducedMotion();
+    const textareaId = useId();
+    const errorId = `${textareaId}-error`;
 
     const handleFocus = (e: FocusEvent<HTMLTextAreaElement>) => {
       setIsFocused(true);
@@ -45,6 +47,7 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
       >
         <div className="relative">
           <textarea
+            id={textareaId}
             ref={ref}
             className={cn(
               "w-full bg-[var(--color-bg-page)] text-[var(--color-text-primary)] border rounded-[var(--radius-sm)] px-4 pt-6 pb-2 text-sm font-body focus:outline-none transition-all duration-300 min-h-[120px] resize-y",
@@ -56,9 +59,12 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
             onFocus={handleFocus}
             onBlur={handleBlur}
             onChange={handleChange}
+            aria-invalid={!!error}
+            aria-describedby={error ? errorId : undefined}
             {...props}
           />
           <label
+            htmlFor={textareaId}
             className={cn(
               "absolute left-4 top-4 font-body text-xs text-[var(--color-text-secondary)] transition-all duration-300 pointer-events-none origin-left transform -translate-y-1/2 scale-100",
               (isFocused || hasValue)
@@ -71,7 +77,7 @@ export const Textarea = forwardRef<HTMLTextAreaElement, TextareaProps>(
           </label>
         </div>
         {error && (
-          <p className="mt-1 text-xs text-[var(--color-error)] font-body font-medium">
+          <p id={errorId} className="mt-1 text-xs text-[var(--color-error)] font-body font-medium">
             {error}
           </p>
         )}

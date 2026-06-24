@@ -20,8 +20,38 @@ export const metadata: Metadata = {
 };
 
 export default function HomePage() {
+  const jsonLd = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "NAFI Solutions",
+    "url": "https://nafisolutions.com",
+    "logo": "https://nafisolutions.com/logo.png",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+251968876088",
+      "contactType": "customer service",
+      "areaServed": "ET",
+      "availableLanguage": ["English", "Amharic"]
+    },
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Adama",
+      "addressCountry": "ET"
+    },
+    "sameAs": [
+      "https://linkedin.com/company/nafi-solutions",
+      "https://instagram.com/nafisolutions",
+      "https://t.me/nafisolutions"
+    ],
+    "description": "NAFI Solutions builds custom websites, mobile apps, and enterprise software that help businesses in Ethiopia grow, operate efficiently, and embrace digital transformation."
+  };
+
   return (
     <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
       <HeroSection />
       <TrustedByStrip />
       <StatsSection />

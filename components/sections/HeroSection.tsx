@@ -34,7 +34,7 @@ export default function HeroSection() {
         {/* Badge */}
         <FadeInView delay={0}>
           <Badge variant="brand" className="mb-8">
-            ✦ Ethiopia&apos;s Leading Software Partner
+          ✦ Digital Solutions for Ethiopia
           </Badge>
         </FadeInView>
 
