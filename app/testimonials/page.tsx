@@ -61,8 +61,8 @@ export default async function TestimonialsPage() {
         subtext="Let's talk about your goals and build something that gets results."
         primaryLabel="Start a Project"
         primaryHref="/contact"
-        secondaryLabel="View Our Services"
-        secondaryHref="/services"
+        secondaryLabel="Meet the Team"
+        secondaryHref="/about"
       />
     </>
   );

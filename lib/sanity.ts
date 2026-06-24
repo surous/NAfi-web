@@ -141,7 +141,7 @@ export const fallbackTeam: TeamMember[] = [
   },
   {
     _id: "team-2",
-    name: "Folikiya Nigussei",
+    name: "Folikiya Nigussie",
     role: "Lead Software Engineer & Security Analyst",
     bio: "Responsible for architecture, development, and technology strategy across all projects.",
     linkedinUrl: "https://www.linkedin.com/in/folikia-nigussie",

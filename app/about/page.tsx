@@ -92,8 +92,8 @@ export default function AboutPage() {
         subtext="Partner with a team that understands your business and delivers technology that works."
         primaryLabel="Start a Project"
         primaryHref="/contact"
-        secondaryLabel="Meet the Team"
-        secondaryHref="/about"
+        secondaryLabel="View Our Services"
+        secondaryHref="/services"
       />
     </>
   );

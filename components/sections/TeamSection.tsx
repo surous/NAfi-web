@@ -8,29 +8,7 @@ import StaggerContainer, { staggerItemVariants } from "@/components/motion/Stagg
 import { motion } from "framer-motion";
 import type { TeamMember } from "@/types";
 
-const fallbackTeam: TeamMember[] = [
-  {
-    _id: "team-1",
-    name: "Abebe Kebede",
-    role: "Founder & CEO",
-    bio: "Visionary leader focused on business innovation and digital transformation across Ethiopia.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
-  },
-  {
-    _id: "team-2",
-    name: "Dawit Yohannes",
-    role: "Lead Software Engineer",
-    bio: "Responsible for architecture, development, and technology strategy across all projects.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
-  },
-  {
-    _id: "team-3",
-    name: "Tigist Amare",
-    role: "Product & Client Success Manager",
-    bio: "Ensures successful project delivery and lasting client satisfaction.",
-    linkedinUrl: "https://linkedin.com/company/nafi-solutions",
-  },
-];
+import { fallbackTeam } from "@/lib/sanity";
 
 interface TeamSectionProps {
   members?: TeamMember[];
