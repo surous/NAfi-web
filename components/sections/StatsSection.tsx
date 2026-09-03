@@ -7,10 +7,10 @@ import { motion } from "framer-motion";
 import SectionHeader from "@/components/ui/SectionHeader";
 
 const stats = [
-  { numberValue: 10, suffix: "+", label: "Projects Delivered" },
-  { numberValue: 9, suffix: "+", label: "Happy Clients" },
-  { numberValue: 2, suffix: "+", label: "Years of Experience" },
-  { numberValue: 99, suffix: "%", label: "Client Satisfaction" },
+  { numberValue: 1, suffix: "", label: "Flagship Client Partner" },
+  { numberValue: 100, suffix: "%", label: "Client Satisfaction" },
+  { numberValue: 100, suffix: "%", label: "Dedicated Attention" },
+  { numberValue: 24, suffix: "/7", label: "Direct Support" },
 ];
 
 export default function StatsSection() {

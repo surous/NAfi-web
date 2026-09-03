@@ -28,8 +28,8 @@ export default async function TestimonialsPage() {
   return (
     <>
       <PageHero
-        headline="What Our Clients Say"
-        subheadline="Real feedback from organizations we've helped grow and transform."
+        headline="Client Stories & Impact"
+        subheadline="Real feedback and proven outcomes from our flagship partnerships."
       />
 
       <StatsSection />
@@ -38,8 +38,8 @@ export default async function TestimonialsPage() {
       <section className="py-24 bg-[var(--color-bg-page)]">
         <div className="max-w-[var(--content-max-width)] mx-auto px-6">
           <SectionHeader
-            title="Client Testimonials"
-            subtitle="Trusted by businesses across Ethiopia"
+            title="Client Feedback"
+            subtitle="Real partnership, proven impact"
           />
           <TestimonialsGrid testimonials={testimonials} />
         </div>
@@ -49,8 +49,8 @@ export default async function TestimonialsPage() {
       <section className="py-24 bg-[var(--color-bg-surface)]">
         <div className="max-w-[var(--content-max-width)] mx-auto px-6">
           <SectionHeader
-            title="Results We've Delivered"
-            subtitle="Real problems solved, real impact created"
+            title="Work & Impact"
+            subtitle="Real problems solved, tangible results delivered"
           />
           <CaseResultsGrid />
         </div>

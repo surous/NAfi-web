@@ -47,15 +47,16 @@ const services = [
   },
   {
     iconName: "Database",
-    title: "Enterprise Software Solutions",
+    title: "Enterprise & Proprietary Software",
     description:
-      "Custom software systems tailored to your organizational workflows, replacing manual processes with intelligent automation.",
+      "Specialized operations software engineered by NAFI Solutions — including our flagship systems GULBETOPS and EDUCORE, alongside custom business platforms.",
     features: [
-      "Student Information Systems",
-      "Hotel Management Systems",
-      "Property Management Platforms",
-      "Inventory Systems",
-      "CRM Systems",
+      "GULBETOPS (Gym Management System)",
+      "EDUCORE (School Management System)",
+      "Student & Academic Information Systems",
+      "Member Tracking & Attendance Portals",
+      "Billing, Invoicing & Subscription Systems",
+      "Custom Enterprise Workflow Automation",
     ],
     category: "Enterprise",
   },

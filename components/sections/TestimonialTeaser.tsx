@@ -35,14 +35,12 @@ export default function TestimonialTeaser() {
 
               {/* Quote */}
               <blockquote className="text-xl md:text-2xl font-heading font-semibold text-[var(--color-text-primary)] leading-[1.4] max-w-3xl mx-auto mb-8 italic">
-                "Nafi Solutions transformed our school's operations through a
-                modern management platform. Administrative tasks became
-                significantly easier."
+                &ldquo;Nafi Solutions elevated Extreme Gym with a modern digital platform and streamlined our day-to-day operations. Their team gave our brand the exact dedication and quality we were looking for.&rdquo;
               </blockquote>
 
               {/* Attribution */}
               <p className="text-sm text-[var(--color-text-secondary)] font-body font-medium mb-8">
-                — School Administrator, Ethiopia
+                — Management Team, Extreme Gym
               </p>
 
               {/* Link */}

@@ -23,9 +23,11 @@ const schema = z.object({
 type FormValues = z.infer<typeof schema>;
 
 const serviceOptions = [
+  { value: "gulbetops", label: "GULBETOPS — Gym Management System" },
+  { value: "educore", label: "EDUCORE — School Management System" },
   { value: "website", label: "Website Development" },
   { value: "mobile", label: "Mobile App" },
-  { value: "enterprise", label: "Enterprise Software" },
+  { value: "enterprise", label: "Custom Enterprise Software" },
   { value: "cloud", label: "Cloud Solutions" },
   { value: "ai", label: "AI & Automation" },
   { value: "consulting", label: "IT Consulting" },

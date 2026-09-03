@@ -37,11 +37,11 @@ const companyLinks = [
 ];
 
 const serviceLinks = [
+  { href: "/services", label: "GULBETOPS (Gym System)" },
+  { href: "/services", label: "EDUCORE (School System)" },
   { href: "/services", label: "Website Development" },
   { href: "/services", label: "Mobile Apps" },
-  { href: "/services", label: "Enterprise Software" },
-  { href: "/services", label: "Cloud Solutions" },
-  { href: "/services", label: "AI & Automation" },
+  { href: "/services", label: "Custom Enterprise Software" },
 ];
 
 export default function Footer() {

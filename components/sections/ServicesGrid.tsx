@@ -26,9 +26,9 @@ const services = [
   },
   {
     iconName: "Settings2",
-    title: "Enterprise Software",
+    title: "Enterprise & Proprietary Software",
     description:
-      "Custom management systems for schools, hotels, real estate companies, and enterprises — built around your exact workflow.",
+      "Purpose-built systems like GULBETOPS (Gym Management) and EDUCORE (School Management), alongside custom organizational workflows.",
     features: [],
   },
 ];
