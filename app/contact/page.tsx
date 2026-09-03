@@ -21,14 +21,14 @@ const contactInfo = [
   {
     Icon: Mail,
     label: "Email",
-    value: "nafisolutions1@gmail.com",
-    href: "mailto:nafisolutions1@gmail.com",
+    value: "admin@nafisolutions.com.et",
+    href: "mailto:admin@nafisolutions.com.et",
   },
   {
     Icon: Phone,
     label: "Phone",
-    value: "+251 968 876 088",
-    href: "tel:+251968876088",
+    value: "+251 959 36 00 16",
+    href: "tel:+251959360016",
   },
   {
     Icon: MapPin,
