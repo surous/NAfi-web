@@ -146,20 +146,20 @@ export default function Footer() {
             <ul className="space-y-4">
               <li>
                 <a
-                  href="mailto:nafisolutions1@gmail.com"
+                  href="mailto:support@nafisolutions.com.et"
                   className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)] font-body hover:text-[var(--color-brand)] transition-colors duration-200 group"
                 >
                   <Mail className="w-4 h-4 mt-0.5 text-[var(--color-brand)] shrink-0" />
-                  nafisolutions1@gmail.com
+                  support@nafisolutions.com.et
                 </a>
               </li>
               <li>
                 <a
-                  href="tel:+251968876088"
+                  href="tel:+251959360016"
                   className="flex items-start gap-3 text-sm text-[var(--color-text-secondary)] font-body hover:text-[var(--color-brand)] transition-colors duration-200"
                 >
                   <Phone className="w-4 h-4 mt-0.5 text-[var(--color-brand)] shrink-0" />
-                  +251 968 876 088
+                  +251 959 36 00 16
                 </a>
               </li>
               <li>

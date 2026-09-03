@@ -144,8 +144,8 @@ nafi-web/
 ## Contact
 
 **NAFI Solutions**
-📧 nafisolutions1@gmail.com
-📞 +251 983 477 881
+📧 support@nafisolutions.com.et
+📞 +251 959 36 00 16
 📍 Adama, Ethiopia
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-NAFI_Solutions-0077b5?logo=linkedin)](https://linkedin.com/company/nafi-solutions)

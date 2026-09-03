@@ -60,7 +60,7 @@ export async function POST(req: NextRequest) {
 
     await resend.emails.send({
       from: "NAFI Solutions <onboarding@resend.dev>",
-      to: "nafisolutions1@gmail.com",
+      to: process.env.CONTACT_EMAIL || "support@nafisolutions.com.et",
       subject: `New Project Inquiry from ${name}`,
       html: `
         <div style="font-family: Inter, sans-serif; max-width: 600px; margin: 0 auto; background: #0D0F14; color: #F0F2F8; padding: 32px; border-radius: 12px;">

@@ -21,8 +21,8 @@ const contactInfo = [
   {
     Icon: Mail,
     label: "Email",
-    value: "admin@nafisolutions.com.et",
-    href: "mailto:admin@nafisolutions.com.et",
+    value: "support@nafisolutions.com.et",
+    href: "mailto:support@nafisolutions.com.et",
   },
   {
     Icon: Phone,
@@ -39,7 +39,7 @@ const contactInfo = [
   {
     Icon: Clock,
     label: "Hours",
-    value: "Monday – Friday, 9:00 AM – 6:00 PM EAT",
+    value: "Monday – Sunday, 8:00 AM – 8:00 PM (GMT+3)",
     href: undefined,
   },
 ];

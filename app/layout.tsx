@@ -26,6 +26,15 @@ export const metadata: Metadata = {
   },
   description:
     "NAFI Solutions builds custom websites, mobile apps, and enterprise software that help businesses in Ethiopia grow, operate efficiently, and embrace digital transformation.",
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/icon.png", type: "image/png" },
+    ],
+    apple: [
+      { url: "/apple-icon.png" },
+    ],
+  },
   openGraph: {
     type: "website",
     locale: "en_US",

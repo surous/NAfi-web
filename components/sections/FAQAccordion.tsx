@@ -7,7 +7,7 @@ const faqs = [
     id: "faq-1",
     question: "How long does a typical project take?",
     answer:
-      "Project timelines vary depending on scope and complexity. A standard website takes 4–8 weeks, while enterprise software or mobile applications typically range from 8–20 weeks. We provide a detailed timeline during our initial consultation.",
+      "Most standard websites and landing pages are delivered within 1–2 weeks, while custom mobile apps and complex software typically take 3–6 weeks. We work in agile sprints to deliver rapid, working results with clear milestones along the way.",
   },
   {
     id: "faq-2",
