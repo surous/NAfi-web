@@ -24,8 +24,8 @@ export default function HomePage() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "NAFI Solutions",
-    "url": "https://nafisolutions.com",
-    "logo": "https://nafisolutions.com/logo.png",
+    "url": "https://nafisolutions.com.et",
+    "logo": "https://nafisolutions.com.et/logo.png",
     "contactPoint": {
       "@type": "ContactPoint",
       "telephone": "+251968876088",

@@ -19,7 +19,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nafisolutions.com"),
+  metadataBase: new URL("https://nafisolutions.com.et"),
   title: {
     default: "NAFI Solutions — Smart Digital Solutions for Modern Businesses",
     template: "%s | NAFI Solutions",
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://nafisolutions.com",
+    url: "https://nafisolutions.com.et",
     siteName: "NAFI Solutions",
     images: [
       {
